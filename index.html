@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="objparser.js"></script>
+</head>
+
+<body>
+	<script>
+		function loadFile() {
+			var e = document.getElementById("fileInput");
+			parseObj("testMesh.obj");
+		}
+	</script>
+
+	<input type="file" id="fileInput"><br>
+	<button onclick="loadFile()">Open...</button>
+</body>
+
+</html>
